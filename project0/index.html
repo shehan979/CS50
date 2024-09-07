@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-right">
+        <a class="nav-button" href="index.html">Home</a>
+        <a class="nav-button" href="image_search.html">Image Search</a>
+        <a class="nav-button" href="advanced_search.html">Advanced Search</a>
+    </div>
+    
+    <div class="search-container">
+        <div>
+            <img src="images/google.png" alt="Google Logo">
+        </div>
+        <div>
+            <form action="https://www.google.com/search" method="get">
+                <input type="text" name="q" class="search-bar" placeholder="Search Google">
+                <div class="buttons">
+                    <input type="submit" value="Google Search" class="search-btn">
+                    <button class="lucky-btn" type="submit" formaction="https://www.google.com/search?btnI=I&q=" class="lucky-button">I'm Feeling Lucky</button>
+                    
+                </form>
+        </div>
+        <div>
+            <p class="redirect-notice">
+                Not to worry! This is an expected consequence of a security feature implemented by Google.
+            </p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
